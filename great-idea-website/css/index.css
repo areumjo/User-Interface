@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 940px;
+	margin: auto;
+	padding: 20px;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+header nav a {
+	/* TB LR */
+	margin: 0px 30px 30px 30px;
+	color: gray;
+	text-decoration: none;
+	position: relative;
+	top: -10px;
+}
+
+header .logo {
+	margin-top: 30px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+h1 {
+	font-size: 85px;
+	text-align: center;
+	margin-left: 40px;	
+}
+
+.div-h1 {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.div-coding-fig {
+	margin-left: 80px;
+	margin-top: 80px;
+	display: inline-block;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+button {
+	border-color: black;
+	border-width: 2px;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	margin-left: 120px;
+	padding: 8px 50px;
+}
+
+button:hover {
+	background-color: navy;
+	color: white;
+}
+
+.top-content {
+	column-count: 2;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.middle-img {
+	display: block;
+	margin: auto;
+}
+
+.bottom-content {
+	column-count: 3;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.contact {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.contact-number {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 50px;
+}
